@@ -8,7 +8,8 @@ if __name__ == "__main__":
         VARIANT = 2
         T = 5
         frequencies = first_task(VARIANT, T)
-        print(frequencies)
+        print(*[f'Frequence: {frequency}, Coefficient absolute value: {coefficient_abs}' for
+                frequency, coefficient_abs in frequencies.items()], sep='\n')
 
         # Task №2
         T = 1

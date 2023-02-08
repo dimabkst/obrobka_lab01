@@ -3,7 +3,7 @@ from utils import draw_plot
 import numpy as np
 
 
-def first_task(variant: int, T: float) -> list:
+def first_task(variant: int, T: float) -> dict:
     try:
         x_i = []
 
